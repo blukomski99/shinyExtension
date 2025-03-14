@@ -11,3 +11,4 @@ LazyData: true
 Imports: devtools, utils, stats
 URL: https://github.com/blukomski99/shinyExtension
 BugReports: https://github.com/blukomski99/shinyExtension/issues
+RoxygenNote: 7.3.1

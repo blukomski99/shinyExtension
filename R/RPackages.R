@@ -12,11 +12,15 @@ packageAvailable <- function(name){
 loadPackage <- function(){
   devtools::load_all()
 }
+documentPackage <- function(){
+  devtools::document()
+}
 checkPackage <- function(){
   devtools::check()
 }
 packageWorkflow <- function(){
   loadPackage()
+  documentPackage()
   checkPackage()
 }
 

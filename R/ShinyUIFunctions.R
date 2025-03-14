@@ -6,7 +6,6 @@
 #' @export
 #'
 #' @examples
-#' fns(c(1,2,3,4,5))
 fns <- function(vals){
   x <- TRUE
   fns <- data.frame(
@@ -74,7 +73,6 @@ fns <- function(vals){
 #' @export
 #'
 #' @examples
-#' testFunction(4)
 testFunction <- function(a){
   return(a*2)
 }
