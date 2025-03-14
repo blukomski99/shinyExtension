@@ -3,6 +3,7 @@ library(roxygen2)
 library(usethis)
 library(testthat)
 
+#Packages
 packageAvailable <- function(name){
   pkgs <- available.packages(filters = c("CRAN","duplicates"))[,"Package"]
   if(name %in% pkgs) return(FALSE) else

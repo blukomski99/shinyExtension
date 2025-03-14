@@ -1,6 +1,6 @@
 #' Five Number Summary
 #'
-#' @param vals A vector of numbers
+#' @param vals A numeric vector
 #'
 #' @return A list of the five number summary, outliers, and warnings
 #' @export
