@@ -4,8 +4,6 @@
 #'
 #' @return A list of the five number summary, outliers, and warnings
 #' @export
-#'
-#' @examples
 fns <- function(vals){
   x <- TRUE
   fns <- data.frame(
@@ -63,7 +61,10 @@ fns <- function(vals){
   )
 
   return(output)
-}  #Computes Five Number Summary
+}
+#'
+#' @examples
+#' fns(c(1,2,3,4,5))
 
 #' Test Function
 #'
@@ -71,8 +72,9 @@ fns <- function(vals){
 #'
 #' @return Twice the inputted number
 #' @export
-#'
-#' @examples
 testFunction <- function(a){
   return(a*2)
 }
+#'
+#' @examples
+#' testFunction(4)
