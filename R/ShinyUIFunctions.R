@@ -4,6 +4,8 @@
 #'
 #' @return A list of the five number summary, outliers, and warnings
 #'
+#' @import stats
+#'
 #' @examples
 #' fns(c(1,2,3,4,5))
 #' @export
