@@ -9,3 +9,5 @@ License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Imports: devtools, utils, stats
+URL: https://github.com/blukomski99/shinyExtension
+BugReports: https://github.com/blukomski99/shinyExtension/issues
