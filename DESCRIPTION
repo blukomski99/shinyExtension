@@ -1,0 +1,11 @@
+Package: shinyExtension
+Type: Package
+Title: Additional UI Functions for Shiny Apps
+Version: 0.1.0
+Author: Brendan Lukomski <lukomski99@gmail.com>
+Maintainer: Brendan Lukomski <lukomski99@gmail.com>
+Description: Additional UI functions for shiny that build on existing functions, but with increased versistility and customization.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Imports: devtools, utils, stats
