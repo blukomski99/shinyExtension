@@ -3,12 +3,11 @@
 #' @param vals A numeric vector
 #'
 #' @return A list of the five number summary, outliers, and warnings
-#'
+#' @export
 #' @import stats
 #'
 #' @examples
 #' fns(c(1,2,3,4,5))
-#' @export
 fns <- function(vals){
   x <- TRUE
   fns <- data.frame(
@@ -73,10 +72,10 @@ fns <- function(vals){
 #' @param a A number
 #'
 #' @return Twice the inputted number
+#' @export
 #'
 #' @examples
 #' testFunction(4)
-#' @export
 testFunction <- function(a){
   return(a*2)
 }
