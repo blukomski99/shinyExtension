@@ -65,3 +65,16 @@ fns <- function(vals){
 
   return(output)
 }  #Computes Five Number Summary
+
+#' Test Function
+#'
+#' @param a A number
+#'
+#' @return Twice the inputted number
+#' @export
+#'
+#' @examples
+#' testFunction(4)
+testFunction <- function(a){
+  return(a*2)
+}
