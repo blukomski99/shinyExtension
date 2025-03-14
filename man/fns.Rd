@@ -15,3 +15,6 @@ A list of the five number summary, outliers, and warnings
 \description{
 Five Number Summary
 }
+\examples{
+fns(c(1,2,3,4,5))
+}
